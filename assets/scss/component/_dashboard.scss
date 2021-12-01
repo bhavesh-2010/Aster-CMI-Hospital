@@ -1,0 +1,623 @@
+/*banner section start*/
+.banner-sec {
+  position: relative;
+  background: url("../images/banner-bg.png") no-repeat center top;
+  background-size: cover;
+  min-height: 540px;
+  padding: 26px 0;
+  // &:before {
+  //   content: "";
+  //   background: rgb(0, 0, 0);
+  //   background: linear-gradient(
+  //     0deg,
+  //     rgba(0, 0, 0, 0.6222864145658263) 0%,
+  //     rgba(0, 68, 152, 0.6194852941176471) 100%
+  //   );
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   display: block;
+  // }
+
+  .bs-desc {
+    padding: 40px 0 0;
+    position: relative;
+    @media ($portrait-phones) {
+      padding: 10px 0 0;
+    }
+    .logo-img {
+      display: block;
+      @media ($portrait-phones) {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        @media ($portrait-phones) {
+          max-width: 45%;
+        }
+      }
+    }
+    h3 {
+      color: #ffffff;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 700;
+      font-size: 31px;
+      letter-spacing: 1.28px;
+      line-height: 40px;
+      text-align: left;
+      margin: 60px 0 0 0;
+      @media ($desktops) {
+        font-size: 28px;
+        line-height: 38px;
+      }
+      @media ($portrait-phones) {
+        text-align: center;
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+    p {
+      color: #ffffff;
+      font-family: $s-light;
+      font-size: 25px;
+      letter-spacing: 3.59px;
+      line-height: 34px;
+      text-align: left;
+      margin: 0 0 20px;
+      @media ($desktops) {
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 30px;
+      }
+      @media ($portrait-phones) {
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin: 10px 0 20px;
+      }
+    }
+    .btn {
+      &.btnBookappointment {
+        max-width: 186px;
+      }
+      @media ($portrait-phones) {
+        margin: 0 auto;
+      }
+    }
+  }
+  .enquire-forms {
+    padding: 30px;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+    max-width: 340px;
+    margin: 0 auto 0 auto;
+    h5 {
+      color: #213559;
+      font-family: $s-medium;
+      font-size: 20.08px;
+      line-height: 24px;
+      text-align: left;
+      margin: 0 0 30px;
+    }
+    .g-recaptcha {
+      .g-recaptcha-response {
+        background-color: #ffffff !important;
+        border: 0.87px solid #d0d0d0 !important;
+      }
+    }
+    .btn {
+      &.btnSubmit {
+        max-width: 111px;
+        min-width: inherit;
+      }
+    }
+    @media ($large-desktops) {
+      margin: 0 0 0 auto;
+    }
+    @media ($tablets) {
+      margin: 60px 0 0 0;
+      max-width: inherit;
+    }
+  }
+}
+/*banner section end*/
+
+/*cell-transplant section start*/
+.cell-transplant-sec {
+  position: relative;
+  padding: 60px 0 50px;
+  .img {
+    display: block;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .cts-desc {
+    position: relative;
+    @media ($large-desktops) {
+      padding-right: 80px;
+    }
+    @media ($desktops) {
+      padding-right: 20px;
+    }
+    @media ($tablets) {
+      padding-right: 0px;
+    }
+    @media ($portrait-phones) {
+      margin: 50px 0 0 0;
+    }
+    h5 {
+      color: #ffffff;
+      font-family: $s-medium;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: left;
+      margin: 0 0 28px;
+      background: rgb(23, 234, 217);
+      background: radial-gradient(
+        ellipse farthest-corner at -65.85% 25%,
+        #17ead9 0%,
+        #6078ea 100%
+      );
+      border-radius: 4px;
+      padding: 18px 25px;
+      @media ($desktops) {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 20px;
+        padding: 15px 20px;
+      }
+      @media ($tablets) {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 0 10px;
+        padding: 10px 15px;
+      }
+    }
+    p {
+      color: #000000;
+      font-family: $s-light;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: left;
+      margin: 0;
+      padding: 20px 0;
+      border-bottom: 1px solid #ececff;
+      &:last-child {
+        border-bottom: 0px;
+      }
+      @media ($desktops) {
+        font-size: 15px;
+        padding: 13px 0;
+      }
+      @media ($tablets) {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 0px;
+      }
+    }
+  }
+}
+/*cell-transplant section end*/
+
+/*doctors section start*/
+.doctors-sec {
+  position: relative;
+  padding: 0 0 47px;
+  @media ($portrait-phones) {
+    padding: 0 0 17px;
+  }
+  .s-title {
+    margin: 0 0 35px;
+  }
+  .card {
+    border: 0;
+    background-color: #f9f9ff;
+    border-radius: 4px;
+    padding: 35px 55px 45px;
+    @media ($tablets) {
+      padding: 30px 30px 35px;
+    }
+    @media ($portrait-phones) {
+      margin: 0 0 30px;
+    }
+    h4 {
+      color: #22b78e;
+      font-family: $s-medium;
+      font-size: 24px;
+      letter-spacing: 0.99px;
+      line-height: 44px;
+      text-align: center;
+      margin: 0 0 25px;
+      @media ($tablets) {
+        font-size: 20px;
+        margin: 0 0 20px;
+        line-height: 40px;
+      }
+    }
+    .ds-item {
+      position: relative;
+      border-bottom: 2px solid #ececff;
+      padding: 0 0 38px;
+      margin: 0 0 35px;
+      .img {
+        background-color: #d8d8d8;
+        border-radius: 4px;
+        position: relative;
+        display: block;
+        overflow: hidden;
+        width: 255px;
+        height: 158px;
+        margin: 0 auto;
+        @media ($tablets) {
+          width: 200px;
+          height: 125px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+          position: relative;
+        }
+      }
+      h5 {
+        color: #1d5aa6;
+        font-family: $s-medium;
+        font-size: 22px;
+        letter-spacing: 1.76px;
+        line-height: 26px;
+        margin: 30px 0 20px;
+        text-align: center;
+        @media ($tablets) {
+          font-size: 18px;
+          letter-spacing: 1px;
+          line-height: 22px;
+          margin: 20px 0 15px;
+        }
+      }
+      h6 {
+        color: #1d5aa6;
+        font-family: $s-light;
+        font-size: 15px;
+        letter-spacing: 1.2px;
+        line-height: 1.3;
+        text-align: center;
+        margin: 0 auto 10px;
+        padding: 0 0 18px;
+        position: relative;
+        span {
+          display: block;
+          font-family: $s-light;
+          line-height: 1.3;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          display: block;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #22b78e;
+          width: 37px;
+          height: 1px;
+        }
+        @media ($tablets) {
+          font-size: 14px;
+          letter-spacing: 1px;
+        }
+      }
+      p {
+        color: #000000;
+        font-family: $s-light;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 50px 30px;
+        text-align: center;
+        @media ($desktops) {
+          margin: 0 0px 30px;
+        }
+        @media ($tablets) {
+          font-size: 14px;
+        }
+      }
+      .btn {
+        &.btnMore {
+          width: 130px;
+          min-height: 49px;
+          min-width: inherit;
+          margin: 0 auto;
+          @media ($tablets) {
+            min-height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+/*doctors section end*/
+
+/*types section start*/
+.types-sec {
+  position: relative;
+  padding: 47px 0 45px;
+  @media ($portrait-phones) {
+    padding: 27px 0 45px;
+  }
+  .s-title {
+    margin: 0 0 30px;
+  }
+  .ts-list {
+    li {
+      color: #000000;
+      font-family: $s-light;
+      font-size: 14px;
+      line-height: 39px;
+      text-align: left;
+      position: relative;
+      padding: 0 0 0 40px;
+      @media ($tablets) {
+        padding: 0 0 0 30px;
+        line-height: 30px;
+      }
+      &:before {
+        content: url("../images/icon-bullet.png");
+        position: absolute;
+        top: 11px;
+        left: 0px;
+        line-height: 1;
+        @media ($tablets) {
+          top: 7px;
+          transform: scale(0.8);
+        }
+      }
+    }
+  }
+}
+/*types section end*/
+
+/*deficiency section start*/
+.deficiency-sec {
+  position: relative;
+  padding: 0 0 85px;
+  .s-title {
+    margin: 0 0 45px;
+  }
+  .ds-item {
+    background-color: #ffffff;
+    border: 1px solid #e5eaff;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    padding: 25px;
+    min-height: 155px;
+    margin: 0 0 30px;
+    position: relative;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    &:hover {
+      cursor: pointer;
+      &::after,
+      &::before {
+        -webkit-transform: scale(1);
+      }
+      .img {
+        img {
+          transform: rotate(-5deg) scale(1.1);
+        }
+      }
+      p {
+        color: #22b78e;
+      }
+    }
+    &::before,
+    &::after {
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-sizing: border-box;
+      -webkit-transform: scale(0);
+      transition: 0.5s;
+    }
+    &::before {
+      border-bottom: 1px solid #22b78e;
+      border-left: 1px solid #22b78e;
+      -webkit-transform-origin: 0 100%;
+    }
+    &:after {
+      border-top: 1px solid #22b78e;
+      border-right: 1px solid #22b78e;
+      -webkit-transform-origin: 100% 0%;
+    }
+    @media ($tablets) {
+      padding: 15px;
+    }
+    @media ($portrait-phones) {
+      padding: 20px;
+      min-height: inherit;
+    }
+    .img {
+      width: 45px;
+      height: 45px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      transition: 0.2s all;
+      img {
+        display: block;
+        object-fit: contain;
+      }
+    }
+    p {
+      color: #000000;
+      font-family: $s-light;
+      margin: 11px 0 0;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: left;
+    }
+  }
+  .accordion {
+    margin-top: 35px;
+    .accordion-item {
+      .accordion-body {
+        padding: 16px;
+        ul {
+          li {
+            color: #000000;
+            font-family: $s-light;
+            font-size: 14px;
+            line-height: 30px;
+            text-align: left;
+            position: relative;
+            padding: 0 0 0 25px;
+            margin: 0 0 5px 0;
+            &:before {
+              content: url("../images/icon-double-tick.png");
+              position: absolute;
+              top: 7px;
+              left: -14px;
+              line-height: 1;
+            }
+            &:last-child {
+              margin: 0 0 0px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*deficiency section end*/
+
+/*testimonials section start*/
+.testimonials-sec {
+  position: relative;
+  padding: 0 0 48px;
+  .s-title {
+    margin: 0 0 20px;
+  }
+  p {
+    color: #000000;
+    font-family: $s-light;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0;
+    text-align: left;
+  }
+  .ts-items-bx {
+    position: relative;
+    margin: 0 0 65px 0;
+    @media ($portrait-phones) {
+      margin: 0 0 35px 0;
+    }
+    .ts-item {
+      position: relative;
+      background-color: #ffffff;
+      border-radius: 4px;
+      box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+      padding: 45px 40px 65px;
+      border: 1px solid transparent;
+      &:hover {
+        border-color: rgba(34, 183, 142, 0.5);
+      }
+      @media ($desktops) {
+        padding: 35px 30px 50px;
+      }
+      @media ($tablets) {
+        padding: 25px 20px 35px;
+      }
+      @media ($portrait-phones) {
+        padding: 25px 20px 35px;
+      }
+      &::before {
+        content: url("../images/icon-qoute.png");
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        line-height: 1;
+        object-fit: contain;
+      }
+      .img {
+        display: block;
+        position: relative;
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        overflow: hidden;
+        @media ($portrait-phones) {
+          width: 55px;
+          height: 55px;
+        }
+        img {
+          display: block;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      h4 {
+        color: #000000;
+        font-family: $s-medium;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: left;
+        margin: 0 0 0 20px;
+        @media ($portrait-phones) {
+          font-size: 18px;
+          line-height: 20px;
+          margin: 0 0 0 15px;
+        }
+        span {
+          margin: 5px 0 0 0;
+          display: block;
+          color: #000000;
+          font-family: $s-light;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: left;
+          @media ($portrait-phones) {
+            line-height: 1;
+          }
+        }
+      }
+      p {
+        color: #000000;
+        font-family: $s-light-italic;
+        font-size: 15px;
+        font-style: italic;
+        line-height: 21px;
+        text-align: left;
+        max-width: 410px;
+        margin: 30px 0 0 0;
+        @media ($portrait-phones) {
+          font-size: 14px;
+          margin: 20px 0 0;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .btn {
+    &.btnABook {
+      margin: 0 auto;
+      border-radius: 3.81px;
+      width: 221px;
+      height: 54px;
+    }
+  }
+}
+/*testimonials section end*/

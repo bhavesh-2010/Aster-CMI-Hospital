@@ -1,0 +1,184 @@
+/*Fonts StagSans*/
+
+@font-face {
+  /*StagSans-Thin*/
+  font-family: "StagSans-Thin";
+  src: url("../../../assets/fonts/StagSans-Thin.eot");
+  src: local("Stag Sans Thin"), local("StagSans-Thin"),
+    url("../../../assets/fonts/StagSans-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Thin.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Thin.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  /*StagSans-Medium*/
+  font-family: "StagSans-Medium";
+  src: url("../../../assets/fonts/StagSans-Medium.eot");
+  src: local("Stag Sans Medium"), local("StagSans-Medium"),
+    url("../../../assets/fonts/StagSans-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Medium.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Medium.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  /*StagSans-BoldItalic*/
+  font-family: "StagSans-BoldItalic";
+  src: url("../../../assets/fonts/StagSans-BoldItalic.eot");
+  src: local("Stag Sans Bold Italic"), local("StagSans-BoldItalic"),
+    url("../../../assets/fonts/StagSans-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-BoldItalic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-BoldItalic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-SemiBoldItalic*/
+  font-family: "StagSans-SemiBoldItalic";
+  src: url("../../../assets/fonts/StagSans-SemiBoldItalic.eot");
+  src: local("Stag Sans SemiBold Italic"), local("StagSans-SemiBoldItalic"),
+    url("../../../assets/fonts/StagSans-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-SemiBoldItalic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-SemiBoldItalic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-LightItalic*/
+  font-family: "StagSans-LightItalic";
+  src: url("../../../assets/fonts/StagSans-LightItalic.eot");
+  src: local("Stag Sans Light Italic"), local("StagSans-LightItalic"),
+    url("../../../assets/fonts/StagSans-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-LightItalic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-LightItalic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-Bold*/
+  font-family: "StagSans-Bold";
+  src: url("../../../assets/fonts/StagSans-Bold.eot");
+  src: local("Stag Sans Bold"), local("StagSans-Bold"),
+    url("../../../assets/fonts/StagSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Bold.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Bold.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  /*StagSans-ThinItalic*/
+  font-family: "StagSans-ThinItalic";
+  src: url("../../../assets/fonts/StagSans-ThinItalic.eot");
+  src: local("Stag Sans Thin Italic"), local("StagSans-ThinItalic"),
+    url("../../../assets/fonts/StagSans-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-ThinItalic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-ThinItalic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-BlackItalic*/
+  font-family: "StagSans-BlackItalic";
+  src: url("../../../assets/fonts/StagSans-BlackItalic.eot");
+  src: local("Stag Sans Black Italic"), local("StagSans-BlackItalic"),
+    url("../../../assets/fonts/StagSans-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-BlackItalic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-BlackItalic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-Black*/
+  font-family: "StagSans-Black";
+  src: url("../../../assets/fonts/StagSans-Black.eot");
+  src: local("Stag Sans Black"), local("StagSans-Black"),
+    url("../../../assets/fonts/StagSans-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Black.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Black.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  /*StagSans-Italic*/
+  font-family: "StagSans-Italic";
+  src: url("../../../assets/fonts/StagSans-Italic.eot");
+  src: local("Stag Sans Italic"), local("StagSans-Italic"),
+    url("../../../assets/fonts/StagSans-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Italic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Italic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-Light*/
+  font-family: "StagSans-Light";
+  src: url("../../../assets/fonts/StagSans-Light.eot");
+  src: local("Stag Sans Light"), local("StagSans-Light"),
+    url("../../../assets/fonts/StagSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Light.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Light.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  /*StagSans-MediumItalic*/
+  font-family: "StagSans-MediumItalic";
+  src: url("../../../assets/fonts/StagSans-MediumItalic.eot");
+  src: local("Stag Sans Medium Italic"), local("StagSans-MediumItalic"),
+    url("../../../assets/fonts/StagSans-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-MediumItalic.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-MediumItalic.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  /*StagSans-SemiBold*/
+  font-family: "StagSans-SemiBold";
+  src: url("../../../assets/fonts/StagSans-SemiBold.eot");
+  src: local("Stag Sans SemiBold"), local("StagSans-SemiBold"),
+    url("../../../assets/fonts/StagSans-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-SemiBold.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-SemiBold.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  /*StagSans-Regular*/
+  font-family: "StagSans-Regular";
+  src: url("../../../assets/fonts/StagSans-Regular.eot");
+  src: local("Stag Sans Regular"), local("StagSans-Regular"),
+    url("../../../assets/fonts/StagSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../../assets/fonts/StagSans-Regular.woff2") format("woff2"),
+    url("../../../assets/fonts/StagSans-Regular.woff") format("woff"),
+    url("../../../assets/fonts/StagSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

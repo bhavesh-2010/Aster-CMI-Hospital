@@ -1,0 +1,37 @@
+.accordion {
+  .accordion-item {
+    border-radius: 0 !important;
+    border: 0;
+    background-color: transparent;
+    .accordion-header {
+      .accordion-button {
+        padding: 30px 0;
+        color: #1d5aa6;
+        font-family: $s-medium;
+        font-size: 20px;
+        letter-spacing: 1.6px;
+        line-height: 22px;
+        text-align: left;
+        border-bottom: 1px solid #ececff;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        &:after {
+          background-image: url("../images/icon-down.png");
+          width: 22px;
+          height: 11px;
+          @media ($tablets) {
+            width: 16px;
+            background-size: contain;
+          }
+        }
+        @media ($tablets) {
+          padding: 20px 0;
+          font-size: 16px;
+          letter-spacing: 1px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
